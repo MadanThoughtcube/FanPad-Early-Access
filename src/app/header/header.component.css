@@ -1,0 +1,19 @@
+.header-container{
+    justify-content: center;
+    align-items: center;
+}
+.artist-image{
+    border-radius: 10%;
+    border: 2px solid white;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.656);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto !important; 
+    object-fit: cover;
+}
+.artist-name{
+    text-align: center; 
+    color: white;
+}
